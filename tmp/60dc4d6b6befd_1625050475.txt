@@ -1,0 +1,5 @@
+c9af74d691a1e7c578f0be7eb14f295096aa655652647a9034b4bdeae5f498f9be9b5f5756b3396e06eec5d90afc1af6615d0007a9d752641028acdc700a7486
+
+{"amount1":"124.26878448","amount2":"124.268784","buyer_name":"Artem","currency1":"TRX","currency2":"TRX","email":"ttt@ttt.tt","fee":"0.62134","ipn_id":"b03f2b64bf5cfe7172a1e4e662db0843","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"18","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"-1","status_text":"Cancelled \/ Timed Out","txn_id":"CPFF6QNPLK15DFJOWOZRWOIOO0"}
+
+{"result":true,"status":3,"pay_id":"18"}

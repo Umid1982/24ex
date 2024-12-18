@@ -1,0 +1,5 @@
+f282c2eba0d8e587f8dd55507c79be5857c3bba07b00fc159f1db13aebfd420ef270912cdb479c87a0a23e2fce29b4f95ab1d7df863f9eaa7f40ceef63c163e9
+
+{"amount1":"5.05","amount2":"5.05","buyer_name":"CoinPayments API","currency1":"TRX","currency2":"TRX","email":"test3@test.ru","fee":"0.02525","ipn_id":"8b361f75676448ca7e76316193c2de16","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"3","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","net":"4.82475","received_amount":"5.05","received_confirms":"10","send_tx":"7394a7f4fab720b1fa19b3b60f1bca57e8e2b84cdc5139a05f7a559773548511","status":"100","status_text":"Complete","txn_id":"CPFC5LW8W8YIA9VXXYQ5SDZCZL"}
+
+{"result":true,"status":5,"pay_id":"3"}

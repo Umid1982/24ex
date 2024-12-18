@@ -1,0 +1,5 @@
+4891b2cad933840164fd1082328849d3d7a2ae807e5c5d83dafb15fc44d9298708f4249b1099080114d456fc95b1db21984582de7f14bae146657772e2d794fa
+
+{"amount1":"4.73930109","amount2":"4.739301","buyer_name":"\u041f\u0435\u0442\u0440\u043e\u0432 \u0410\u043d\u0442\u043e\u043d \u0418\u0432\u0430\u043d\u043e\u0432\u0438\u0447","currency1":"TRX","currency2":"TRX","email":"anton_petrikov@mail.ru","fee":"0.0237","ipn_id":"5f96b35ce71dcbd6969d0c5f32cb472e","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"20","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","net":"4.515601","received_amount":"4.739301","received_confirms":"10","send_tx":"a5d103a8030ca87ee9ccca361faeeb83d569a79be6edcacb26c3491a81aa2d56","status":"100","status_text":"Complete","txn_id":"CPFG2BNXU1GJMUWVKF0EBJPAUD"}
+
+{"result":true,"status":5,"pay_id":"20"}

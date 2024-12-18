@@ -1,0 +1,5 @@
+4cced4239f9d0ed6ea9905b347ff8234293bf53e20caf95cec2316338eb92d56634beaecf0d0cb9efa7ac5d48c4b73337a1fd7ad85a76644528f6ccae9a346ab
+
+{"amount1":"122.26089586","amount2":"122.260896","buyer_name":"Alex","currency1":"TRX","currency2":"TRX","email":"alex@ales.alex","fee":"0.6113","ipn_id":"54dd84b0309bef59faf30dba4b940a76","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"21","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"0","status_text":"Waiting for buyer funds...","txn_id":"CPFG1PWIYHAYXCOH9XHSC07EPZ"}
+
+{"result":false,"error":"wrong payment ID"}

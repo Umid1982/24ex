@@ -1,0 +1,5 @@
+fb3d19c8c7c6d96272fed258c5dd218bc610e7b3f35751c7f69747b6921a273fe55a7e9d5ef8c4d2942271dda938c1e7963135373fa6d723acb4c6651e7d5913
+
+{"amount1":"0.01","amount2":"0.32074","buyer_name":"CoinPayments API","currency1":"BTC","currency2":"ETH","email":"test@test.test","fee":"0.0016","ipn_id":"e986487ec77ed630d82997d907ecc95f","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"23","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"0","status_text":"Waiting for buyer funds...","txn_id":"CPFC04Q6MGMHQ5VJDWF6RBCMRX"}
+
+{"result":true,"status":6,"pay_id":"23"}

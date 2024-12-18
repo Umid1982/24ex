@@ -1,0 +1,130 @@
+.table-logs code {
+	font-size: 10px;
+	display: block;
+	margin: 5px;
+	max-height: 100px;
+	max-width: 200px;
+	overflow: scroll;
+}
+
+.menu-submenu {
+	z-index: 100 !important;
+}
+
+#users_search_form .btn {
+	z-index: 1 !important;
+}
+
+.datatable-subtable .datatable-head .datatable-cell span {
+	font-weight: bold !important;
+	font-size: 14px !important;
+}
+
+/* PAY-STATUS */
+.pay-status {
+	padding:5px 5px;
+	border-radius: 5px;
+	color:#fff;
+	font-weight:bold;
+	display: block;
+	text-align: center;
+}
+
+/* NEW */
+.pay-status-0 {
+	background-color: blue !important;
+}
+
+/* IN WORK */
+.pay-status-1 {
+	background-color: #d3b80f !important;
+}
+
+/* CANCEL */
+.pay-status-2 {
+	background-color: gray !important;
+}
+
+/* REJECT */
+.pay-status-3 {
+	background-color: red !important;
+}
+
+/* DONE */
+.pay-status-4 {
+	background-color: green !important;
+}
+
+/* PAYS */
+.pay-status-5 {
+	background-color: orange !important;
+}
+
+/* PENDING */
+.pay-status-6 {
+	background-color: #bdac53 !important;
+}
+
+/* NEED TO PAY */
+.pay-status-7 {
+	background-color: #99c155 !important;
+}
+
+/* MARK AS PAYED */
+.pay-status-8 {
+	background-color: #75b9b0 !important;
+}
+
+/* SEND PROPS */
+.pay-status-9 {
+	background-color: #44bd2d !important;
+}
+
+
+
+
+.details-block {
+	padding: 10px;
+	background-color: #F3F6F9;
+}
+
+.comm-block {
+	padding: 5px;
+	font-size: 12px;
+	border: 1px solid #ddd;
+	border-radius: 10px; 
+	background-color: #fff;
+	width: 100%;
+	height: 100px;
+	display: block;
+	overflow: scroll;
+}
+
+.btn-save-details {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+select.alt_select {
+	width:100%;
+	height:40px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+}
+
+.all-alerts {
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	max-width: 30%;
+}
+
+.ui-autocomplete {
+	border-radius: 5px;
+}
+
+.ui-autocomplete .ui-menu-item-wrapper {
+	padding: 10px;
+}

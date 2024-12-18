@@ -1,0 +1,5 @@
+0cae5eadfa3d089a15ab4652d204e978f80d3c6aa227aa4c1a622f58b04f0dd9cf6f40ca83acc9611736c3bb1df3b66d12edbe85a822181c81b0285ef956c748
+
+{"amount1":"10.1","amount2":"10.1","buyer_name":"\u0424\u0430\u043c\u0438\u043b\u0438\u044f \u0410\u043d\u0442\u043e\u043d \u041e\u0442\u0447\u0435\u0441\u0442\u0432\u043e","currency1":"TRX","currency2":"TRX","email":"anton_petrikov@mail.ru","fee":"0.0505","ipn_id":"82ce54e13a6470f4656b49ef50bf8eed","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"1","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"-1","status_text":"Cancelled \/ Timed Out","txn_id":"CPFC4FVBYIJKDDZAMNZDXT7VPL"}
+
+{"result":false,"error":"wrong payment status"}

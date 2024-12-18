@@ -1,0 +1,5 @@
+80f4022aba2ac8d2f6a44cf1ce44dfe1aea7834d1a4948231d154b9addfb4077b89ba23eeb175b19f6af6a8675599e660628d1bae273023b49f76d59d2847ba3
+
+{"amount1":"110.08989224","amount2":"110.089892","buyer_name":"Artem","currency1":"TRX","currency2":"TRX","email":"zzz@zzz.zz","fee":"0.55045","ipn_id":"a800a4e7377718bdbde27597341144d1","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"23","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"0","status_text":"Waiting for buyer funds...","txn_id":"CPFL0PSUKXFXARI3JSL5UBKSXO"}
+
+{"result":true,"status":6,"pay_id":"23"}

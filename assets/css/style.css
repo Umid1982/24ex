@@ -1,0 +1,96 @@
+.one_bal_block {
+	border: 1px solid #000;
+	padding: 20px;
+	background-color: #f7fff7;
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+
+.stat_table {
+	border-collapse: collapse;
+}
+
+.stat_table td {
+	padding: 10px 20px;
+	border: 1px solid #333;
+}
+
+.ub_lock_1 {
+	color: #eee !important;
+}
+
+.all-alerts {
+	z-index: 99999;
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	max-width: 30%;
+}
+
+.change_list {
+}
+
+.change_list a {
+	border: 1px solid #444;
+	padding: 20px 30px;
+	width: 100%;
+	display: block;
+}
+
+.change_list a:hover, .change_list a.hover {
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+/* NEW */
+.pay-status-0 {
+	color: blue !important;
+}
+
+/* IN WORK */
+.pay-status-1 {
+	color: #d3b80f !important;
+}
+
+/* CANCEL */
+.pay-status-2 {
+	color: gray !important;
+}
+
+/* REJECT */
+.pay-status-3 {
+	color: red !important;
+}
+
+/* DONE */
+.pay-status-4 {
+	color: green !important;
+}
+
+/* PAYS */
+.pay-status-5 {
+	color: orange !important;
+}
+
+/* PENDING */
+.pay-status-6 {
+	color: #bdac53 !important;
+}
+
+/* NEED TO PAY */
+.pay-status-7 {
+	color: #99c155 !important;
+}
+
+/* MARK AS PAYED */
+.pay-status-8 {
+	color: #75b9b0 !important;
+}
+
+/* SEND PROPS */
+.pay-status-9 {
+	color: #44bd2d !important;
+}

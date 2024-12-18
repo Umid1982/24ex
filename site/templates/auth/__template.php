@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<!--begin::Head-->
+	<head><base href="/">
+		<meta charset="utf-8" />
+		<title>Авторизация</title>
+		<meta name="description" content="Login page example" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="canonical" href="https://keenthemes.com/metronic" />
+		<!--begin::Fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<!--end::Fonts-->
+		<!--begin::Page Custom Styles(used by this page)-->
+		<link href="assets/css/pages/login/classic/login-4.css" rel="stylesheet" type="text/css" />
+		<!--end::Page Custom Styles-->
+		<!--begin::Global Theme Styles(used by all pages)-->
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.office.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Theme Styles-->
+		<!--begin::Layout Themes(used by all pages)-->
+		<!--end::Layout Themes-->
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+
+		<link href="assets/css/style.css?rand=<?=rand(0,1000000);?>" rel="stylesheet" type="text/css" />
+	</head>
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_body" style="background-image: url(assets/media/bg/bg-10.jpg)" class="quick-panel-right demo-panel-right offcanvas-right header-fixed subheader-enabled page-loading">
+
+	<div class="all-alerts" id="all-alerts">
+	</div>
+
+		<script>
+			var ajaxurl = '<?=$var_ajax_url;?>';
+			var nowlang = '<?=_LANG_;?>';
+		</script>
+
+		<!--begin::Main-->
+		<div class="d-flex flex-column flex-root">
+			<!--begin::Login-->
+			<div class="login login-4 login-signin-on d-flex flex-row-fluid" id="kt_login">
+				<div class="d-flex flex-center flex-row-fluid bgi-size-cover bgi-position-top bgi-no-repeat" style="background-image: url('assets/media/bg/bg-3.jpg');">
+					<div class="login-form text-center p-7 position-relative overflow-hidden">
+						<!--begin::Login Header-->
+						<div class="d-flex flex-center mb-15">
+							<a href="javascript:return false;">
+								<img src="assets/media/logos/logo-letter-13.png" class="max-h-75px" alt="" />
+							</a>
+						</div>
+						<!--end::Login Header-->
+						<!--begin::Login Sign in form-->
+						<div class="login-signin">
+							<div class="mb-20">
+								<h3>Авторизация</h3>
+								<div class="text-muted font-weight-bold">Введите данные для авторизации:</div>
+							</div>
+							<form class="form" id="kt_login_signin_form">
+								<div class="form-group mb-5">
+									<input class="form-control h-auto form-control-solid py-4 px-8" type="text" placeholder="Email" name="email" value="<?=@$var_email?>" autocomplete="off" />
+								</div>
+								<div class="form-group mb-5">
+									<input class="form-control h-auto form-control-solid py-4 px-8" type="password" placeholder="Пароль" name="pass" />
+								</div>
+								<div class="form-group mb-5">
+									<input class="form-control h-auto form-control-solid py-4 px-8" type="password" placeholder="Код Google 2FA (если включено в аккаунте)" name="code_2fa" />
+								</div>
+								<div class="form-group d-flex flex-wrap justify-content-between align-items-center">
+									<div class="checkbox-inline">
+										<label class="checkbox m-0 text-muted">
+										<input type="checkbox" name="remember" />
+										<span></span>Запомнить меня</label>
+									</div>
+									<a href="javascript:;" id="kt_login_forgot" class="text-muted text-hover-primary">Забыли пароль ?</a>
+								</div>
+								<button name="action" value="go_login" class="btn btn-primary font-weight-bold px-9 py-4 my-3 mx-4">Войти</button>
+							</form>
+							<div class="mt-10">
+								<span class="opacity-70 mr-4">Нет аккаунта?</span>
+								<a href="javascript:;" id="kt_login_signup" class="text-muted text-hover-primary font-weight-bold">Регистрация</a>
+							</div>
+							<div class="mt-10">
+								<a href="<?=$var_oauth_path;?>">Войти через Google oAuth</a>
+							</div>
+						</div>
+						<!--end::Login Sign in form-->
+						<!--begin::Login Sign up form-->
+						<div class="login-signup">
+							<div class="mb-20">
+								<h3>Регистрация</h3>
+								<div class="text-muted font-weight-bold">Введите данные для регистрации</div>
+							</div>
+							<form class="form" id="kt_login_signup_form">
+								<div class="form-group mb-5">
+									<input class="form-control h-auto form-control-solid py-4 px-8" type="text" placeholder="Имя" name="fname" />
+								</div>
+								<div class="form-group mb-5">
+									<input class="form-control h-auto form-control-solid py-4 px-8" type="text" placeholder="Email" name="email" value="<?=@$var_email?>" autocomplete="off" />
+								</div>
+								<div class="form-group mb-5">
+									<input class="form-control h-auto form-control-solid py-4 px-8" type="password" placeholder="Пароль" name="pass1" />
+								</div>
+								<div class="form-group mb-5">
+									<input class="form-control h-auto form-control-solid py-4 px-8" type="password" placeholder="Повторите пароль" name="pass2" />
+								</div>
+								<div class="form-group d-flex flex-wrap flex-center mt-10">
+									<button id="kt_login_signup_submit" name="action" value="go_reg" class="btn btn-primary font-weight-bold px-9 py-4 my-3 mx-2">Зарегистрироваться</button>
+									<button id="kt_login_signup_cancel" class="btn btn-light-primary font-weight-bold px-9 py-4 my-3 mx-2">Отмена</button>
+								</div>
+							</form>
+						</div>
+						<!--end::Login Sign up form-->
+						<!--begin::Login forgot password form-->
+						<div class="login-forgot">
+							<div class="mb-20">
+								<h3>Забыли пароль ?</h3>
+								<div class="text-muted font-weight-bold">Введите Email для восстановления пароля</div>
+							</div>
+							<form class="form" id="kt_login_forgot_form">
+								<div class="form-group mb-10">
+									<input class="form-control form-control-solid h-auto py-4 px-8" type="text" placeholder="Email" name="email" autocomplete="off" />
+								</div>
+								<div class="form-group mb-10">
+									<select name="restore_type" class="form-control">
+										<option value="tg">На привязанный Telegram</option>
+										<option value="email">На адрес E-mail</option>
+									</select>
+								</div>
+								<div class="form-group d-flex flex-wrap flex-center mt-10">
+									<button id="kt_login_forgot_submit" class="btn btn-primary font-weight-bold px-9 py-4 my-3 mx-2">Восстановить</button>
+									<button id="kt_login_forgot_cancel" class="btn btn-light-primary font-weight-bold px-9 py-4 my-3 mx-2">Отмена</button>
+								</div>
+							</form>
+						</div>
+						<!--end::Login forgot password form-->
+						<!--begin::Login forgot password confirm form-->
+						<div class="login-forgot-restore">
+							<div class="mb-20">
+								<h3>Восстановление пароля</h3>
+								<div class="text-muted font-weight-bold">Введите данные для восстановления пароля</div>
+							</div>
+							<form class="form" id="kt_login_forgot-restore_form">
+								<div class="form-group mb-10">
+									<input class="form-control form-control-solid h-auto py-4 px-8" type="text" placeholder="Email" name="email" value="<?=@$var_email?>" autocomplete="off" />
+								</div>
+								<div class="form-group mb-10">
+									<input class="form-control form-control-solid h-auto py-4 px-8" type="text" placeholder="Код восстановления" name="rcode" value="" autocomplete="off" />
+								</div>
+								<div class="form-group d-flex flex-wrap flex-center mt-10">
+									<button id="kt_login_forgot-restore_submit" class="btn btn-primary font-weight-bold px-9 py-4 my-3 mx-2">Восстановить</button>
+								</div>
+							</form>
+						</div>
+						<!--end::Login forgot password confirm form-->
+					</div>
+				</div>
+			</div>
+			<!--end::Login-->
+		</div>
+		<!--end::Main-->
+		<!--begin::Global Config(global config for global JS scripts)-->
+		<script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#6993FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#F3F6F9", "dark": "#212121" }, "light": { "white": "#ffffff", "primary": "#E1E9FF", "secondary": "#ECF0F3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#212121", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#ECF0F3", "gray-300": "#E5EAEE", "gray-400": "#D6D6E0", "gray-500": "#B5B5C3", "gray-600": "#80808F", "gray-700": "#464E5F", "gray-800": "#1B283F", "gray-900": "#212121" } }, "font-family": "Poppins" };</script>
+		<!--end::Global Config-->
+		<!--begin::Global Theme Bundle(used by all pages)-->
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+		<!--end::Global Theme Bundle-->
+		<!--begin::Page Scripts(used by this page)-->
+		<script src="assets/js/funcs.js?rand=<?=rand(0,1000000);?>"></script>
+		<script src="assets/js/site/login-general.js?rand=<?=rand(0,1000000);?>"></script>
+		<script src="assets/js/site/auth.js?rand=<?=rand(0,1000000);?>"></script>
+		<!--end::Page Scripts-->
+	</body>
+	<!--end::Body-->
+</html>

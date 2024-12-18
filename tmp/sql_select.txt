@@ -1,0 +1,2 @@
+SELECT SQL_CALC_FOUND_ROWS * FROM `users_logs` WHERE 1=1 AND `user_id` = "2" ORDER BY `log_dt` DESC LIMIT 0,20
+SELECT SQL_CALC_FOUND_ROWS * FROM `refs` WHERE 1=1 AND `ref_id` = "2" AND `level` = "1" 

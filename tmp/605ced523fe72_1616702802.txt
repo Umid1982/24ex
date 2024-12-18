@@ -1,0 +1,5 @@
+1d827ca51bcad8536ce8c1ab91385fc8a85904104f6b722d2e38dd476f2e8d1bd6681e7b4383c831d9f5ca02b0eb59ba2a9f059281fc1d2b1ed4ef7d313377ae
+
+{"amount1":"0.01","amount2":"0.32074","buyer_name":"CoinPayments API","currency1":"BTC","currency2":"ETH","email":"test@test.test","fee":"0.0016","ipn_id":"9b17cd90c373429ddc3859b4ab8236aa","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"23","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"-1","status_text":"Cancelled \/ Timed Out","txn_id":"CPFC04Q6MGMHQ5VJDWF6RBCMRX"}
+
+{"result":true,"status":3,"pay_id":"23"}

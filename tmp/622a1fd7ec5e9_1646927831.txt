@@ -1,0 +1,5 @@
+25eca97670c74974aaa1b361e150f7552a69243f9b5332e350722dc1db2f7807d50c5f06545e2b7033e1c30e99229d6fb4c5ea3b59177ac4509e0b550f07e026
+
+{"amount1":"1246.96979809","amount2":"1246.969798","buyer_name":"Fores","currency1":"TRX","currency2":"TRX","email":"tofores78@gmail.com","fee":"6.23485","ipn_id":"f3f6d991307966c06067c4e5adfbf17f","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"27","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"0","status_text":"Waiting for buyer funds...","txn_id":"CPGC16SQLDU8SQA0XW8P3PVGOU"}
+
+{"result":true,"status":6,"pay_id":"27"}

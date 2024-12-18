@@ -1,0 +1,5 @@
+fa9fce146ea0a4614f54c030b0f5732238ac1a22ed75409d5d05aab071bdee66132a0577f61252f0236c359ecd1faefb060a91e0e41925abebfa5e0bb0dde0ee
+
+{"amount1":"5.05","amount2":"5.05","buyer_name":"CoinPayments API","currency1":"TRX","currency2":"TRX","email":"test3@test.ru","fee":"0.02525","ipn_id":"6c5474bc880dcd141ecd73dd5f2b35b3","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"3","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"5.05","received_confirms":"10","status":"1","status_text":"Funds received and confirmed, sending to you shortly...","txn_id":"CPFC5LW8W8YIA9VXXYQ5SDZCZL"}
+
+{"result":true,"status":6,"pay_id":"3"}

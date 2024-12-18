@@ -1,0 +1,5 @@
+642ce2ff9c685997ad55bb0201f64e0f059af0f9a87c6f7a9056db0bab70b87e3cca97decde67e8d931eae24a8c1e0c841ce46b9bac4cf54a5f7f9fb507f845f
+
+{"amount1":"12.12","amount2":"12.12","buyer_name":"Fores","currency1":"TRX","currency2":"TRX","email":"tofores78@gmail.com","fee":"0.0606","ipn_id":"ca650791dac6ae7a2906c7d26c110262","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"24","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"-1","status_text":"Cancelled \/ Timed Out","txn_id":"CPGB2Q8NXQHLGUJ4RNZBQ8NWCP"}
+
+{"result":false,"error":"wrong payment status"}

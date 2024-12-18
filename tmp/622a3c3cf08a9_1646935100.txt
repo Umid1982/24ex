@@ -1,0 +1,5 @@
+d7d7bf07b3ba1d3f210bef487f1e1e2e4701825efb652256de98a05fa241ffd5876c84a3e9691bcc6efac76cbea18293c9e376c27f9d17f1c0809bfe8058c67b
+
+{"amount1":"1246.96979809","amount2":"1246.969798","buyer_name":"Fores","currency1":"TRX","currency2":"TRX","email":"tofores78@gmail.com","fee":"6.23485","ipn_id":"423264534389e43379389d4cb39f175c","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"27","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"-1","status_text":"Cancelled \/ Timed Out","txn_id":"CPGC16SQLDU8SQA0XW8P3PVGOU"}
+
+{"result":true,"status":3,"pay_id":"27"}

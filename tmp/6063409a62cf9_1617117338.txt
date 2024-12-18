@@ -1,0 +1,5 @@
+a0beb2feb15c3cdc35a3ddca9651ae75dba5669003c5986afa5596952b3e121577f44cf3abbf86e01529bfc49773bc95a7269e1c2a4471ac924b2d1f3d31ceff
+
+{"amount1":"10.1","amount2":"10.1","buyer_name":"\u0424\u0430\u043c\u0438\u043b\u0438\u044f \u0410\u043d\u0442\u043e\u043d \u041e\u0442\u0447\u0435\u0441\u0442\u0432\u043e","currency1":"TRX","currency2":"TRX","email":"anton_petrikov@mail.ru","fee":"0.0505","ipn_id":"1c3bb53e03afad56c7ef856b1d17af49","ipn_mode":"hmac","ipn_type":"api","ipn_version":"1.0","item_name":"pay_id","item_number":"1","merchant":"9f2f3b5af7d2af30fbd663b013a70fd3","received_amount":"0","received_confirms":"0","status":"0","status_text":"Waiting for buyer funds...","txn_id":"CPFC4FVBYIJKDDZAMNZDXT7VPL"}
+
+{"result":false,"error":"wrong paysys"}
